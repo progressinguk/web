@@ -1,6 +1,6 @@
 ---
 title: "GitHub Student Developer Pack"
-description: ''
+description: 'Free open-source for students'
 date: '2019-10-21'
 tags: ['tech', 'Github', 'student discount', 'coding', 'tools']
 ---

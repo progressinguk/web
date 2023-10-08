@@ -1,6 +1,6 @@
 ---
 title: "Our Open Strategy"
-description: ''
+description: 'Sharing our plans publicly'
 date: '2017-03-05'
 tags: ['updates', 'Trello']
 ---

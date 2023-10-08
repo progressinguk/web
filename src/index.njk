@@ -53,7 +53,18 @@ templateEngineOverride: md, njk
     <p>Husband and wife, Si & Lizzie, bring over 30 years combined experience from the education and tech sectors to deliver core tools in interactive learning.</p>
     <p>Both are trained coaches with a passion for personal development across academies and tech, evangelising modern technology core concepts in education, bridging the gaps where many have overlooked in the past.</p>
   </div>
-
+  <div class="tdbc-section">
+    <ul class="tdbc-column-container">
+      {%- for page in collections.pages -%}
+      <li class="tdbc-card">
+        <div class="tdbc-card__content">
+          <a href="{{ page.url }}" class="tdbc-card__title">{{ page.data.title }}</a>
+          <p>{{ page.data.description }}</p>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 {{ content | safe }}
 
 </main>

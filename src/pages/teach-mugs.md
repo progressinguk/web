@@ -1,6 +1,6 @@
 ---
 title: "Teach Mugs"
-description: "Mugs for your teachers"
+description: "Comical mugs for your teachers"
 ---
 
 **During the COVID-19 pandemic, we setup an online store to sell funny mugs for teachers.**
