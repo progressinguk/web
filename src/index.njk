@@ -61,42 +61,15 @@ templateEngineOverride: md, njk
 </header>
 <main class="tdbc-container">
   <div class="tdbc-section">
-    <ul class="tdbc-column-container">
-      {%- for page in collections.pages -%}
-      <li class="tdbc-card">
-        <div class="tdbc-card__content">
-          <a href="{{ page.url }}" class="tdbc-card__title">{{ page.data.title }}</a>
-          <p>{{ page.data.description }}</p>
-        </div>
-      </li>
-      {%- endfor -%}
-    </ul>
+    <p>There's no better way to learn than from others. Learning by example, learning from mistakes, learning from your team mates.</p>
+    <p><a href="https://join.slack.com/t/progressinguk/shared_invite/enQtMjU4MDg2ODM5MDk0LTU1OTZjNWY2N2U4OWUzZWZkZGI4ZTMyNWYyMWJlM2JhMTk5OGExOWVlODQ3NGNlOGI1NDlkYTExNTMzN2ZjMDE">Join our Slack workspace to help shape the movement</a></p>
+    <h2>Our Mission Statement</h2>
+    <p>To deliver user-friendly, digital resources for improving the educational experience.</p>
+    <h2>The Team</h2>
+    <img src="/images/elizabeth-simon-jobling.jpg" alt="Elizabeth and Simon Jobling" />
+    <p>Husband and wife, Si & Lizzie, bring over 30 years combined experience from the education and tech sectors to deliver core tools in interactive learning.</p>
+    <p>Both are trained coaches with a passion for personal development across academies and tech, evangelising modern technology core concepts in education, bridging the gaps where many have overlooked in the past.</p>
   </div>
-  <style>
-    
-  </style>
-
-<h2 id="quickstart" class="tdbc-h3 tdbc-mt-lg">Quick Start</h2>
-
-1. [Generate a repo from this template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) which will copy this project into your own new repo.
-
-1. Once cloned, run `npm install` to install 11ty and other dependencies. Then run `npm start` to run 11ty in watch mode. Use `npm run build` to run a production version.
-
-1. Open `src/_data/meta.js` and adjust the values to your details.
-
-1. Review the [styling documentation](https://5t3ph.github.io/html-sass-jumpstart/) for the included minimal Sass framework, particularly the theme variables, to quickly customize the starter.
-
-1. Edit `src/index.njk` to change the home page - including changing the template type if desired - and then create content within `_pages` using any templating format you prefer to add content.
-
-1. Check out the [About page](/about/) for expanded details on included features of this starter.
-
-1. Review the [11ty documentation](https://11ty.dev) to more deeply apply customizations, including adding custom data sources and reviewing what template languages are available.
-
-<h3 class="tdbc-h4">Is Netlify hosting required?</h3>
-
-It's not required, but highly recommended, and is also how the build process is setup to run.
-
-> For more Eleventy resources, check out my extended collection on [11ty.Rocks](https://11ty.rocks)!
 
 {{ content | safe }}
 
