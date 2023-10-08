@@ -74,3 +74,14 @@ $tdbc-alignments: left, center, right !default;
   float: right;
   margin: 0 0 1rem 1rem;
 }
+
+.tdbc-banner {
+  background: $tdbc-color-primary;
+  color: $tdbc-color-secondary;
+  padding: 1rem;
+  margin: 0 0 1rem;
+
+  a {
+    color: #FFF;
+  }
+}
